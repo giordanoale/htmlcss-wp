@@ -17,9 +17,34 @@ body{
 
 /* header */
 header{
-  height: 100px;
-  background-color: pink;
   margin-bottom: 10px;
+}
+
+img{
+  height: 80px;
+}
+
+nav{
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #858585;
+}
+
+li a:hover{
+  color: black;
+  border-bottom: 2px solid black;
 }
 /* /header */
 
