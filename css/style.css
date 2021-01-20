@@ -98,11 +98,39 @@ li a:hover{
   font-size: 800;
 }
 
-.image{
+.image-1{
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
   position: relative;
-  display: block;
   object-fit: cover;
-  height: 141px;
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  z-index: 0;
+}
+
+.image-2{
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  z-index: 0;
+}
+
+.image-3{
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  object-fit: cover;
+  height: 200px;
   width: 100%;
   border-radius: 15px;
   margin-bottom: 5px;
