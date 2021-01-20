@@ -20,7 +20,7 @@ header{
   margin-bottom: 10px;
 }
 
-img{
+.main-logo{
   height: 80px;
 }
 
@@ -53,8 +53,32 @@ li a:hover{
 /* sezione jumbotron */
 .jumbotron{
   height: 80vh;
-  background-color: yellow;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
   margin-bottom: 10px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.text{
+  color: #ffff;
+  width: 50%;
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+  z-index: 2;
 }
 /* /sezione jumbotron */
 
