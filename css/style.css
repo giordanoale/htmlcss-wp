@@ -1,0 +1,79 @@
+/* general */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin:auto;
+}
+/* /general */
+
+/* header */
+header{
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 10px;
+}
+/* /header */
+
+/* corpo principale */
+
+/* sezione jumbotron */
+.jumbotron{
+  height: 80vh;
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+/* /sezione jumbotron */
+
+/* sezione leadership */
+.main-section{
+  /* height: 80vh; */
+  background-color: blue;
+}
+
+.top-title{
+  height:80px;
+  background-color: lightblue;
+  margin-bottom: 2%;
+}
+
+.column{
+  background-color: lightblue;
+}
+
+.column.left, .column.right{
+  width: 20%;
+  float:left;
+}
+
+.column.center{
+  width: 56%;
+  margin-left: 2%;
+  margin-right: 2%;
+  float:left;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /sezione leadership */
+
+/* /corpo principale */
+
+/* footer */
+footer{
+  height: 60px;
+  background-color: purple;
+  margin-top: 10px;
+}
+/* /footer */
